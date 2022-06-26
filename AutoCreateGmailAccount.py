@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: Chao
-# @Date:   2018-08-23 22:57:28
-# @Last Modified by:   Chao
-# @Last Modified time: 2018-11-02 10:04:50
-
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
 import pandas as pd
