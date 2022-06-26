@@ -47,7 +47,7 @@ class CreateGmail:
         time.sleep(1)
         self._browser.find_element_by_css_selector(r'input[id="username"]').send_keys(
             self._username
-        )
+        )   
         time.sleep(1)
         self._browser.find_element_by_css_selector(r'input[name="Passwd"]').send_keys(self._pswd)
         time.sleep(1 + 3 * random.random())
