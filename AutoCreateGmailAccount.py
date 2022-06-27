@@ -16,7 +16,7 @@ class CreateGmail:
         self._pswd = pswd
         self._Donefile = open("./data/CreatedAccounts.csv", "a")
         self.Initialize()
-
+                
     def Initialize(self):
         self._browser = webdriver.Chrome()
         self._browser.delete_all_cookies()
