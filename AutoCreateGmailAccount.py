@@ -5,7 +5,7 @@ import random
 import time
 import sys
 import webdriver_manager
-webdriver_manager.chrome.ChromeDriverManager().get_compatible_version()
+webdriver_manager.chropythonme.ChromeDriverManager().get_compatible_version()
 
 
 class CreateGmail:
