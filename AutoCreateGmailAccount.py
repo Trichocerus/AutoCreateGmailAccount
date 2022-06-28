@@ -1,10 +1,13 @@
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
+from webdriver_auto_update import check_driver
 import pandas as pd
 import random
 import time
 import sys
 
+check_driver('folder/path/of/your/chromedriver')
+driver = webdriver.Chrome()
 class CreateGmail:
     """Auto Create Gmail Accounts with popular names"""
 
