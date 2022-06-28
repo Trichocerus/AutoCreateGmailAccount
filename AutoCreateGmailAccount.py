@@ -1,4 +1,4 @@
-from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.action_chains import ActionChains as AC
 from selenium import webdriver
 import pandas as pd
 import random
