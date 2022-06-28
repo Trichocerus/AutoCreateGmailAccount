@@ -17,7 +17,7 @@ class CreateGmail:
         self.Initialize()
 
     def Initialize(self):
-        self._browser = webdriver.Chrome(executable_path = 'usr/local/bin/chromedriver.exe')
+        self._browser = webdriver.Chrome(executable_path = 'usr/local/bin/chromedriver')
         self._browser.delete_all_cookies()
         self._browser.get("https://accounts.google.com/SignUp?hl=en")
 
