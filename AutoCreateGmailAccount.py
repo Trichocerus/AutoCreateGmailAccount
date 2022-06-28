@@ -4,6 +4,8 @@ import pandas as pd
 import random
 import time
 import sys
+import webdrivermanager
+webdrivermanager.chrome.ChromeDriverManager().get_compatible_version()
 
 
 class CreateGmail:
